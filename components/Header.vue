@@ -4,6 +4,8 @@
       <ul>
         <li><nuxt-link to="/">Starting Page</nuxt-link></li>
         <li><nuxt-link to="/articles">Articles</nuxt-link></li>
+        <li><nuxt-link to="/charts">Charts</nuxt-link></li>
+        <li><nuxt-link to="/anythings">Anythings</nuxt-link></li>
         <li><nuxt-link to="/about">About</nuxt-link></li>
       </ul>
     </nav>

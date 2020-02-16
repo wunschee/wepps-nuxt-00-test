@@ -4,7 +4,9 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _67d92238 = () => interopDefault(import('../pages/about/index.vue' /* webpackChunkName: "pages/about/index" */))
+const _41f50bdc = () => interopDefault(import('../pages/anythings/index.vue' /* webpackChunkName: "pages/anythings/index" */))
 const _f9b5c970 = () => interopDefault(import('../pages/articles/index.vue' /* webpackChunkName: "pages/articles/index" */))
+const _581a7b60 = () => interopDefault(import('../pages/charts/index.vue' /* webpackChunkName: "pages/charts/index" */))
 const _5fef5233 = () => interopDefault(import('../pages/articles/_id/index.vue' /* webpackChunkName: "pages/articles/_id/index" */))
 const _9d06bb8c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -29,9 +31,17 @@ export const routerOptions = {
     component: _67d92238,
     name: "about"
   }, {
+    path: "/anythings",
+    component: _41f50bdc,
+    name: "anythings"
+  }, {
     path: "/articles",
     component: _f9b5c970,
     name: "articles"
+  }, {
+    path: "/charts",
+    component: _581a7b60,
+    name: "charts"
   }, {
     path: "/articles/:id",
     component: _5fef5233,
